@@ -1,0 +1,134 @@
+/* normalize */
+* {
+    padding: unset;
+    margin: unset;
+    border: unset;
+    outline: unset;
+    font-weight: 400;
+    font-family: 'Montserrat-Medium', arial, sans-serif;
+    font-size: 1vw;
+    color: #212121;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: unset;
+    font-weight: unset;
+  }
+  
+  h1::-moz-selection,
+  h2::-moz-selection,
+  h3::-moz-selection,
+  h4::-moz-selection,
+  h5::-moz-selection,
+  h6::-moz-selection {
+    background: #fe817a;
+  }
+  
+  h1::selection,
+  h2::selection,
+  h3::selection,
+  h4::selection,
+  h5::selection,
+  h6::selection {
+    background: #fe817a;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: #212121;
+  }
+  
+  ul,
+  ol,
+  li,
+  a,
+  p,
+  span,
+  strong,
+  i,
+  em,
+  div,
+  section {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    margin: unset;
+  }
+  
+  ul::-moz-selection,
+  ol::-moz-selection,
+  li::-moz-selection,
+  a::-moz-selection,
+  p::-moz-selection,
+  span::-moz-selection,
+  strong::-moz-selection,
+  i::-moz-selection,
+  em::-moz-selection,
+  div::-moz-selection,
+  section::-moz-selection {
+    background: #fe817a;
+  }
+  
+  ul::selection,
+  ol::selection,
+  li::selection,
+  a::selection,
+  p::selection,
+  span::selection,
+  strong::selection,
+  i::selection,
+  em::selection,
+  div::selection,
+  section::selection {
+    background: #fe817a;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #fe817a;
+    text-decoration: unset;
+  }
+  
+  strong,
+  b {
+    font-weight: 600;
+  }
+  
+  i,
+  em {
+    font-style: italic;
+  }
+  
+  ul,
+  ol,
+  li,
+  button,
+  span {
+    display: block;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+  }
